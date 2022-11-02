@@ -473,23 +473,22 @@ ul {
 
 .svg-clients:hover,
 .svg-clients:focus {
-  color: #2196F3;
-border: 1px solid #2196F3;
+  color: #2196f3;
+  border: 1px solid #2196f3;
 }
 .svg-clients {
-  color: #AFB1B8;
-
+  color: #afb1b8;
 }
 .svg-end:hover,
 .svg-end:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .svg-end {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: center;
@@ -511,13 +510,11 @@ border: 1px solid #2196F3;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
 }
-
 
 .list-end {
   display: flex;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .footer-icon {
