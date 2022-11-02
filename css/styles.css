@@ -374,6 +374,7 @@ ul {
 }
 .social-icons {
   display: flex;
+  margin-top: 16px;
 }
 
 /* Portfolio */
@@ -458,7 +459,8 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.clients-item {
+
+.svg-clients {
   width: 170px;
   height: 92px;
   display: flex;
@@ -468,12 +470,15 @@ ul {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+
 .svg-clients:hover,
 .svg-clients:focus {
-  color: #2196F3; 
+  color: #2196F3;
+border: 1px solid #2196F3;
 }
 .svg-clients {
   color: #AFB1B8;
+
 }
 .svg-end:hover,
 .svg-end:focus {
@@ -502,17 +507,28 @@ ul {
 }
 .footer-title {
   color: #ffffff;
-
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
 }
 
 
 .list-end {
   display: flex;
+  margin-top: 20px; 
 }
 
+.footer-icon {
+  margin-right: 10px;
+}
+.footer-block {
+  margin-left: 70px;
+  width: 210px;
+  margin-left: 70px;
+  margin-top: 12px;
+}
 .footer .logo {
   margin-bottom: 20px;
   display: block;
@@ -521,6 +537,10 @@ ul {
 /* Adress */
 .footer {
   background-color: #2f303a;
+}
+.footer-main {
+  min-width: 280px;
+  margin-right: 20px;
 }
 .address-list .address-link {
   color: var(--primary-white-color);
