@@ -427,6 +427,7 @@ ul {
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .portfolio-card {
@@ -434,6 +435,7 @@ ul {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+  
 }
 
 .portfolio-list .title {
