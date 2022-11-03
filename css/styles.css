@@ -65,7 +65,6 @@ ul {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 80px;
 }
@@ -142,9 +141,12 @@ ul {
   display: flex;
   align-items: center;
 }
-
+.header-right li:last-child .contact-link {
+  margin-right: 0;
+}
 .header-right {
   display: flex;
+  margin-left: auto;
 }
 .header-right .icon-header {
   margin: 10px;
@@ -183,7 +185,6 @@ ul {
 .order-button:hover,
 .order-button:focus {
   background-color: #188ce8;
-  
 }
 .filter-button {
   color: var(--title-text-color);
@@ -204,7 +205,8 @@ ul {
 .filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-button.active {
   color: var(--primary-white-color);
@@ -219,7 +221,9 @@ ul {
 
 .service {
   height: 600px;
+  max-width: 1600px;
   padding-top: 200px;
+  margin: 0 auto;
   background-color: #2f303a;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/new-photo.jpg);
